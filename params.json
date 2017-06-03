@@ -1,9 +1,6 @@
 {
   "name": "Golang_note",
   "tagline": "learn and use golang",
-  "body": "
-  ### golang note 1\r\n\r\n1. go 无继承\r\n2. init 在 main执行之前\r\n3. 编译器查找包的时候，总会去GOROOT和GOPATH环境变量引用的位置找，先从Go的安装目录GOROOT后GOPATH\r\n4. channel 和 map, slice都是引用类型。\r\n5. 写并发时，在main函数返回前，清理并终止所有之前启动的goroutine\r\n6. 推荐使用WaitGroup来跟踪goroutine的工作是否完成。WaitGroup是一个计数信号量，我们可以利用它来统计所有的goroutine是否完成了工作。\r\n当goroutine完成了工作后，就会递减WaitGroup变量的计数值，当这个值递减到0时，我们就知道所有的工作都做完了。\r\n7. 关键字defer会安排随后的函数调用在函数返回时才执行。\r\n8. 如果接口类型只包含一个方法，那么这个类型的名字以er结尾。\r\n9. 空结构在创建时，不会分配任何内存。空接口很适合创建没有任何状态的类型。\r\n
-  10. test\r\n
-  ",
+  "body": "### golang note 1\r\n\r\n1. go 无继承\r\n2. init 在 main执行之前\r\n3. 编译器查找包的时候，总会去GOROOT和GOPATH环境变量引用的位置找，先从Go的安装目录GOROOT后GOPATH\r\n4. channel 和 map, slice都是引用类型。\r\n5. 写并发时，在main函数返回前，清理并终止所有之前启动的goroutine\r\n6. 推荐使用WaitGroup来跟踪goroutine的工作是否完成。WaitGroup是一个计数信号量，我们可以利用它来统计所有的goroutine是否完成了工作。\r\n当goroutine完成了工作后，就会递减WaitGroup变量的计数值，当这个值递减到0时，我们就知道所有的工作都做完了。\r\n7. 关键字defer会安排随后的函数调用在函数返回时才执行。\r\n8. 如果接口类型只包含一个方法，那么这个类型的名字以er结尾。\r\n9. 空结构在创建时，不会分配任何内存。空接口很适合创建没有任何状态的类型。\r\nst\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
